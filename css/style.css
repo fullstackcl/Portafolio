@@ -1,0 +1,257 @@
+ 
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul,
+ol {
+  list-style-type: none; /* Elimina los puntos o números */
+  padding: 0; /* Elimina el relleno predeterminado */
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+.principal {
+  background-color: rgb(189, 211, 255);
+  min-height: 530px;
+  text-align: center;
+}
+.principal-inferior {
+  gap: 90px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.navbar-nav {
+  display: none;
+  text-align: center;
+}
+.imagenes img {
+  margin: 10px;}
+  
+.imagen-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+/* sobre mi */
+.proyectos {
+  padding: 60px 60px 80px 60px;
+}
+.proyectos.columna {
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid #8080804d;
+  align-items: center;
+}
+.proyectos .row div {
+  height: 350px;
+  border: 1px solid;
+}
+.columna {
+  text-align: justify;
+  padding: 9px;
+}
+.titulo-desarrollo {
+  text-align: center;
+}
+
+.proyectos i {
+  /* icono boton */
+  font-size: 1.1rem;
+  color: #0d6efd;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+.titulo-desarrollo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.descargar{
+  text-align: center;
+  align-items: center;
+}
+ 
+
+.skill {
+  padding: 20px;
+}
+.skill-cabecera h2 {
+  padding: 20px;
+  font-size: 2.5rem;
+  color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.icono {
+  width: 10.875rem;
+  height: 10.25rem;
+  background-color: rgb(189, 211, 255);
+  border-radius: 11px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+/* proyectos */
+.programas {
+  padding: 60px;
+}
+
+ .programas h2 {
+  padding: 30px;
+  font-size: 2.5rem;
+  color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+} 
+
+/* contactame */
+.contacto {
+  margin-top: 3rem;
+  height: 700px;
+}
+
+.contacto h2 {
+  padding: 30px;
+  font-size: 2.5rem;
+  color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.formulario-contacto-inicio {
+  max-width: 40.75rem;
+  /*  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  border: 0.01px solid; */
+  border-radius: 11px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+ 
+}
+.formulario-contacto-inicio label {
+  line-height: 2.7em;
+  font-weight: bold;
+  color: #000000;
+  background-color: rgb(189, 211, 255);
+}
+
+.formulario-contacto-inicio textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+  background-color: rgb(189, 211, 255);
+}
+
+.formulario-contacto-inicio .input-field {
+  background-color: rgb(189, 211, 255);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px outset #000000;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+
+.input-field::placeholder {
+  padding: 0.5rem;
+  color: #000000;
+}
+.boton {
+  width: 100%;
+  cursor: pointer;
+}
+.submit-btn {
+  width: 100%;
+  background-color: rgb(189, 211, 255);
+}
+
+button:hover {
+  background-color: rgb(118, 157, 235);
+}
+
+footer {
+  background-color: rgb(189, 211, 255);
+  padding: 1.25rem;
+  text-align: center;
+}
+ 
+/* barra nav */
+
+@media (min-width: 993px) {
+  /* Estilos para pantallas extra grandes */
+  .barra {
+    gap: 160px;
+    font-size: 20px;
+    width: 100%;
+    margin: 0, auto;
+  }
+  .navbar {
+    position: fixed; /*  para que quede fijo arriba al hacer scroll tambien puede ser fixed*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(189, 211, 255);
+    z-index: 100;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Estilos para pantallas grandes */
+  .barra {
+    gap: 160px;
+    font-size: 20px;
+    width: 100%;
+    margin: 0, auto;
+  }
+  .navbar {
+    position: fixed; /*  para que quede fijo arriba al hacer scroll tambien puede ser fixed*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(189, 211, 255);
+    z-index: 100;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Estilos para pantallas medianas */
+  .brand-title,
+  .brand-subtitle {
+    display: none;
+  }
+  .navbar {
+    background-color: rgb(189, 211, 255);
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Estilos para pantallas pequeñas */
+  .brand-title,
+  .brand-subtitle {
+    display: none;
+  }
+  .navbar {
+    background-color: rgb(189, 211, 255);
+    font-size: 20px;
+  }
+}

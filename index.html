@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Natassja Jaramillo" />
+    <meta name="description" content="descripcion del proyecto" />
+    <meta name="keyword" content="HTML,CSS,Javascript,Bootstrap,Jquery" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- ICONOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Natassja Jaramillo | Desarrolladora Web Fullstack</title>
+    <link rel="icon" type="image/x-icon" href="img/cardImageLeftold.jpg" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+           
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav d-flex justify-content-center align-items-center barra"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="#sobremi">Sobre de Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#misskill">Skills</a>
+              </li>
+              <li>
+                <ul class="navbar-nav brand">
+                  <li class="brand-txt">
+                    <h5 class="brand-title">Natassja Jaramillo</h5>
+                    <div class="brand-subtitle">
+                      Desarrolladora Web | Fullstack
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#miproyecto"
+                  >Proyectos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>    
+    </header>
+
+    <main>
+      <!-- Contenido principal -->
+      <section class="principal align-items-stretch">
+        <div class="principal-cabecera d-flex flex-column justify-content-center align-items-center">
+            <h1>Mi nombre es Natassja Jaramillo</h1>
+            <h2>Desarrolladora Web | FullStack</h2>
+        </div>
+        <div class="principal-inferior">
+            <a href="#">
+                <img
+                    class="imagen-inferior1 img-fluid"
+                    src="img/icons8-github-50.png"
+                    alt="GitHub"
+                />
+            </a>
+            <a href="#">
+                <img
+                    class="imagen-inferior2 img-fluid"
+                    src="img/icons8-linkedin-50.png"
+                    alt="LinkedIn"
+                />
+            </a>
+            <a href="#">
+                <img
+                    class="imagen-inferior3 img-fluid"
+                    src="img/icons8-whatsapp-50.png"
+                    alt="WhatsApp"
+                />
+            </a>
+        </div>
+    </section>
+    
+      <!-- SOBRE MI -->
+      <section class="proyectos claro" id="sobremi">
+        <div class="container text-center">
+            <div class="row">
+                <div class="columna col-12 col-md-4">
+                    <p class="titulo-desarrollo">Sobre Mi</p>
+                    <p>
+                        Fuera del mundo de la programación, disfruto de actividades como
+                        la lectura y la meditación, las cuales me ayudan a mantener un
+                        equilibrio entre el trabajo y la vida personal. Encuentro en la
+                        meditación una forma de conectar conmigo misma y reducir el
+                        estrés. Siempre estoy en búsqueda de nuevas maneras de crecer y
+                        desarrollarme tanto personal como profesionalmente.
+                    </p>
+                </div>
+                <div class="columna col-12 col-md-4">
+                    <p class="titulo-desarrollo">Experiencia</p>
+                    <p>
+                        Soy una desarrolladora Web Fullstack con una profunda pasión por
+                        la tecnología. Esta pasión me ha impulsado a estudiar y
+                        mantenerme al día con las nuevas tecnologías. Desde el año 2012,
+                        he trabajado en diversos proyectos relacionados con ERP y
+                        Sistemas de Contabilidad, lo que me ha permitido desarrollar una
+                        sólida experiencia y conocimientos en estos campos. Mi objetivo
+                        es seguir contribuyendo con soluciones innovadoras y eficientes.
+                    </p>
+                    <button
+                        type="button"
+                        id="downloadable"
+                        class="downloadButton descargar btn btn-outline-primary"
+                    >
+                        Descargar
+                        <i class="bi bi-cloud-download"></i>
+                    </button>
+                </div>
+                <div class="columna datos col-12 col-md-4">
+                    <p class="titulo-desarrollo">Información de Contacto</p>
+                    <ul class="info">
+                        <li>
+                            <i class="bi bi-envelope-at-fill"></i><span>Email</span> :
+                            natassjajaramillo@gmail.com
+                        </li>
+                        <li>
+                            <i class="bi bi-telephone"></i><span>Fono</span> : +569 9752 9714
+                        </li>
+                        <li>
+                            <i class="bi bi-github"></i><span>GitHub</span> : Fullstackcl
+                        </li>
+                        <li>
+                            <i class="bi bi-whatsapp"></i> <span>Whatsapp</span> : +569 9752 9714
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <!--  CONOCIMIENTOS -->
+      <section class="skill-cabecera principal" id="misskill">
+        <h2>Skills & Tools</h2>
+    
+        <div class="skill">
+            <div class="skill_uno">
+                <img src="img/icons8-html-100.svg" class="icono" alt="HTML Icon" />
+                <img src="img/icons8-css-100.png" class="icono" alt="CSS Icon" />
+                <img src="img/icons8-javascript-100.svg" class="icono" alt="JavaScript Icon" />
+            </div>
+            <div class="skill-dos">
+                <img src="img/icons8-jquery-100.svg" class="icono" alt="jQuery Icon" />
+                <img src="img/icons8-mysql-100.png" class="icono" alt="MySQL Icon" />
+            </div>
+            <div class="skill-tres">
+                <img src="img/icons8-git-100.png" class="icono" alt="Git Icon" />
+                <img src="img/icons8-github-100.png" class="icono" alt="GitHub Icon" />
+                <img src="img/icons8-bootstrap-100.svg" class="icono" alt="Bootstrap Icon" />
+            </div>
+        </div>
+    </section>
+    
+      <!-- PROYECTOS -->
+       
+      <section class="programas" id="miproyecto">
+        <h2 class="programas-titulo">Proyectos Recientes</h2>
+        <div class="proyectos2 container text-center programas-imagen">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="img/prototipo01.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto Agencia de Viajes
+                  </h5>
+                  <p class="card-text"> En este proyecto, se realiza pagina web usando HTML, CSS y Bootstrap</p>
+                </div>
+                <div class="card-body">
+                  <a href="#programas" class="card-link">Ver Mas</a>
+            
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/prototipo5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto Aerolinea Aerovia Express</h5>
+                  <p class="card-text">En este proyecto, nuestro cliente nos solicita diseñar una página web, en la que utilizamos HTML, CSS y Bootstrap.</p>
+                </div>
+                <div class="card-body">
+                  <a href="#programas" class="card-link">Ver Mas</a>
+            
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/prototipo7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto Lista de Tareas</h5>
+                  <p class="card-text"> Se crea una página web empleando HTML, CSS, Javascript y DOM.</p>
+                </div>
+                <div class="card-body">
+                  <a href="#programas" class="card-link">Ver Mas</a>
+           
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/prototipo2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto utilizando Jquery</h5>
+                  <p class="card-text">En este proyecto se utiliza estilos en HTML, CSS, Jquery</p>
+                </div>
+                <div class="card-body">
+                  <a href="#programas" class="card-link">Ver Mas</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- CONTACTAME -->
+      <section class="contacto principal" id="contacto">
+        <h2>Contáctame</h2>
+        <form class="formulario-principal">
+            <div class="formulario-contacto-inicio">
+                <div class="formulario-contacto">
+                    <div class="control-formulario">
+                        <label for="name">Nombre</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="enviar-name"
+                            placeholder="Escribe tu nombre"
+                            class="input-field ctrl-nombre"
+                            required
+                        />
+                    </div>
+                    <div class="control-formulario">
+                        <label for="email">Correo Electrónico</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="enviar-email"
+                            placeholder="Ingresa tu correo electrónico"
+                            class="input-field ctrl-correo"
+                            required
+                        />
+                    </div>
+                    <div class="control-formulario">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea
+                            id="mensaje"
+                            cols="60"
+                            rows="10"
+                            placeholder="Escribe tu mensaje"
+                            name="mensaje"
+                            class="input-field ctrl-mensaje"
+                            required
+                        ></textarea>
+                    </div>
+                    <div class="boton">
+                        <button
+                            type="submit"
+                            value="Enviar"
+                            id="submit-btn"
+                            class="submit-btn"
+                        >
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    
+    </main>
+    <footer>
+      <!-- Pie de página -->
+      <p>&copy; 2024 Creado por Natassja Jaramillo</p>
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
